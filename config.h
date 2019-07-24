@@ -13,6 +13,9 @@ static const char *colorname[NUMCOLS] = {
 /* treat a cleared input like a wrong password (color) */
 static const int failonclear = 1;
 
+/* allow control key to trigger fail on clear */
+static const int controlkeyclear = 0;
+
 /* default message */
 static const char * message = "Suckless: Software that sucks less.";
 
